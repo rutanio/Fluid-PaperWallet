@@ -1,9 +1,8 @@
 {
-  "name": "bitaddress.org",
-  "version": "3.3.0",
-  "sha1sum": "6cc839a9f60196e3c5e1ddf6cb9e49ce2ae85cb7",
+  "name": "paper.fluidchains.com",
+  "version": "3.3.0-fluidchains",
   "sha256sum": "dec17c07685e1870960903d8f58090475b25af946fe95a734f88408cef4aa194",
-  "description": "Open Source JavaScript Client-Side Bitcoin Wallet Generator",
+  "description": "Open Source JavaScript Client-Side FluidChains Wallet Generator",
   "main": "Gruntfile.js",
   "dependencies": {
     "grunt": "~0.4.1",
@@ -13,23 +12,25 @@
   "devDependencies": {
 	"grunt": "~0.4.1",
     "grunt-combine": "~0.8.3",
-    "grunt-lineending": "~0.2.4"
+    "grunt-lineending": "~0.2.4",
+    "grunt-encode-asset-base64": "0.0.3"
+
   },
   "scripts": {
     "test": ""
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/pointbiz/bitaddress.org.git"
+    "url": "git://github.com/FluidChains/PaperWallet"
   },
   "keywords": [
-    "bitcoin address wallet generator"
+    "Fluichains FLUID address wallet generator"
   ],
-  "author": "pointbiz",
+  "author": "FluidChains Inc",
   "license": "MIT",
   "readmeFilename": "README.md",
-  "gitHead": "d77aaf687fca1f0e28388b0a8de5eb3d89d4fad3",
+  "gitHead": "",
   "bugs": {
-    "url": "https://github.com/pointbiz/bitaddress.org/issues"
+    "url": "https://github.com/FluidChains/PaperWallet"
   }
 }
