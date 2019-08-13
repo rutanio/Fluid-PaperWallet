@@ -7,7 +7,7 @@ module.exports = function (grunt) {
 		combine: {
 			single: {
 				input: "./src/bitaddress-ui.html",
-				output: "./bitaddress.org.html",
+				output: "./paper.fluidchains.com.html",
 				tokens: [
 					{ token: "//biginteger.js", file: "./src/biginteger.js" },
 					{ token: "//bitcoinjs-lib.js", file: "./src/bitcoinjs-lib.js" },
@@ -60,13 +60,20 @@ module.exports = function (grunt) {
 			}
 		},
 		
+		assetenc: {
+			pathToAssets: 'src/images',
+			rootAlias: 'images',
+			dst: './paper.fluidchains.com.html',
+			template: './paper.fluidchains.com.html',
+		  }, 
+
 		lineending: {               // Task
 			dist: {                   // Target
 				options: {              // Target options
 					eol: 'lf'
 				},
 				files: {                // Files to process
-					'./bitaddress.org.html': ['./bitaddress.org.html']
+					'./paper.fluidchains.com.html': ['./paper.fluidchains.com.html']
 				}
 			}
 		}
@@ -75,5 +82,6 @@ module.exports = function (grunt) {
 	grunt.file.defaultEncoding = 'utf-8';
 	grunt.loadNpmTasks("grunt-combine");
 	grunt.loadNpmTasks('grunt-lineending');
-	grunt.registerTask("default", ["combine:single", "lineending"]);
+	grunt.loadNpmTasks('grunt-encode-asset-base64');
+	grunt.registerTask("default", ["combine:single", "lineending", "assetenc" ]);
 };
