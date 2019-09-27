@@ -20,7 +20,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/FluidChains/PaperWallet"
+    "url": "git://github.com/FluidChains/Fluid-PaperWallet"
   },
   "keywords": [
     "Fluichains FLUID address wallet generator"
@@ -30,6 +30,6 @@
   "readmeFilename": "README.md",
   "gitHead": "",
   "bugs": {
-    "url": "https://github.com/FluidChains/PaperWallet"
+    "url": "https://github.com/FluidChains/Fluid-PaperWallet"
   }
 }
