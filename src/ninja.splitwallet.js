@@ -55,7 +55,7 @@ ninja.wallets.splitwallet = {
 			var output = document.createElement("div");
 			output.setAttribute("id", "splitoutput");
 			var m = {};
-			output.appendChild(this.mkOutputRow(bitcoinAddress, "split_addr", "Fluid Address:    "));
+			output.appendChild(this.mkOutputRow(bitcoinAddress, "split_addr", "EXOS Address:    "));
 			m["split_addr"] = bitcoinAddress;
 
 			for (var i = 0; i < shares.length; i++) {
