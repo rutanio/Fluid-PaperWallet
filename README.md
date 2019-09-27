@@ -1,7 +1,7 @@
-# Paper Wallet FluidChains
-JavaScript Client-Side Fluid Wallet Generator
+# Paper Wallet EXOS
+JavaScript Client-Side EXOS Wallet Generator
 
-Now Fluid addresses and their corresponding private key can be conveniently 
+Now EXOS addresses and their corresponding private key can be conveniently 
 generated in a web browser.
 
 Based on bitaddress.org[https://github.com/pointbiz/bitaddress.org]
@@ -23,10 +23,10 @@ END USER NOTES:
 
 Notice of Copyrights and Licenses:
 ---------------------------------------
-The Fluid Paper Wallet project, software and embedded resources are
-copyright FluidChains Inc.
+The EXOS Paper Wallet project, software and embedded resources are
+copyright OpenExO.
 
-The Fluid Paper Wallet name and logo are not part of the open source
+The EXOS Paper Wallet name and logo are not part of the open source
 license.
 
 Portions of the all-in-one HTML document contain JavaScript codes that
