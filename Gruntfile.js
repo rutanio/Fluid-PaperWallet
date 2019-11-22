@@ -7,7 +7,7 @@ module.exports = function (grunt) {
 		combine: {
 			single: {
 				input: "./src/bitaddress-ui.html",
-				output: "./paper.exos.to.html",
+				output: "./paper.rutanio.com.html",
 				tokens: [
 					{ token: "//biginteger.js", file: "./src/biginteger.js" },
 					{ token: "//bitcoinjs-lib.js", file: "./src/bitcoinjs-lib.js" },
@@ -63,8 +63,8 @@ module.exports = function (grunt) {
 		assetenc: {
 			pathToAssets: 'src/images',
 			rootAlias: 'images',
-			dst: './paper.exos.to.html',
-			template: './paper.exos.to.html',
+			dst: './paper.rutanio.com.html',
+			template: './paper.rutanio.com.html',
 		  }, 
 
 		lineending: {               // Task
@@ -73,7 +73,7 @@ module.exports = function (grunt) {
 					eol: 'lf'
 				},
 				files: {                // Files to process
-					'./paper.exos.to.html': ['./paper.exos.to.html']
+					'./paper.rutanio.com.html': ['./paper.rutanio.com.html']
 				}
 			}
 		}

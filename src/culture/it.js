@@ -2,26 +2,26 @@
 	translator.translations["it"] = {
 		// javascript alerts or messages
 		"testneteditionactivated": "TESTNET EDITION ATTIVATO",
-		"paperlabelbitcoinaddress": "Indirizzo EXOS:",
+		"paperlabelbitcoinaddress": "Indirizzo Rutanio:",
 		"paperlabelprivatekey": "Chiave privata:",
 		"paperlabelencryptedkey": "Chiave privata criptata (password richiesta)",
 		"bulkgeneratingaddresses": "Generazione indirizzi... ",
 		"brainalertpassphrasetooshort": "La passphrase inserita è troppo corta.\n\n",
-		"brainalertpassphrasewarning": "Attenzione: La scelta di una passphrase robusta è importante per evitare attacchi brute force in grado di indovinare la tua passphrase e rubare i tuoi EXOS",
+		"brainalertpassphrasewarning": "Attenzione: La scelta di una passphrase robusta è importante per evitare attacchi brute force in grado di indovinare la tua passphrase e rubare i tuoi Rutanio",
 		"brainalertpassphrasedoesnotmatch": "La passphrase non combacia con quella data per la conferma.",
 		"detailalertnotvalidprivatekey": "Il testo inserito non rappresenta una Chiave Privata valida",
-		"detailconfirmsha256": "Il testo inserito non rappresenta una Chiave privata valida!\n\nVorresti usare il testo inserito come passphrase e creare da questa un hash SHA256 e generare così una Chiave Privata?\n\nAvvertenza: La scelta di una passphrase robusta è importante per evitare che attacchi di tipo \"brute force\" vadano a segno indovinando il testo segreto e di conseguenza far perdere i EXOS.",
+		"detailconfirmsha256": "Il testo inserito non rappresenta una Chiave privata valida!\n\nVorresti usare il testo inserito come passphrase e creare da questa un hash SHA256 e generare così una Chiave Privata?\n\nAvvertenza: La scelta di una passphrase robusta è importante per evitare che attacchi di tipo \"brute force\" vadano a segno indovinando il testo segreto e di conseguenza far perdere i Rutanio.",
 		"bip38alertincorrectpassphrase": "Passphrase non corretta per questa chiave privata criptata.",
 		"bip38alertpassphraserequired": "Passphrase richiesta per chiave BIP38",
 		"vanityinvalidinputcouldnotcombinekeys": "Dati inseriti non validi. Le chiavi non possono essere combinate.",
 		"vanityalertinvalidinputpublickeysmatch": "Dati inseriti non validi. Entrambe le chiavi pubbliche combaciano. Devi inserire due chiavi differenti.",
-		"vanityalertinvalidinputcannotmultiple": "Dati inseriti non validi. Impossibile moltiplicare due chiavi pubbliche. Seleziona 'Aggiungi' per inserire due chiavi pubbliche ed ottenere l'indirizzo EXOS.",
+		"vanityalertinvalidinputcannotmultiple": "Dati inseriti non validi. Impossibile moltiplicare due chiavi pubbliche. Seleziona 'Aggiungi' per inserire due chiavi pubbliche ed ottenere l'indirizzo Rutanio.",
 		"vanityprivatekeyonlyavailable": "Non disponibile quando vengono combinate due chiavi private",
 		"vanityalertinvalidinputprivatekeysmatch": "Dati inseriti non validi. Entrambe le chiavi private combaciano. Devi inserire due chiavi differenti.",
 
 		// header and menu html
-		"tagline": "Open Source JavaScript Client-Side EXOS Wallet Generator",
-		"generatelabelbitcoinaddress": "Generazione Indirizzo EXOS...",
+		"tagline": "Open Source JavaScript Client-Side Rutanio Wallet Generator",
+		"generatelabelbitcoinaddress": "Generazione Indirizzo Rutanio...",
 		"generatelabelmovemouse": "MUOVI il tuo mouse per contribuire alla generazione dei numeri casuali...",
 		"generatelabelkeypress": "OR type some random characters into this textbox", //TODO: please translate
 		"singlewallet": "Singolo portafoglio",
@@ -65,20 +65,20 @@
 		"statuslabelprotocolbad2": "download", //TODO: please translate
 		"statuslabelprotocolbad3": "the zip file from GitHub and run this generator offline as a local html file.", //TODO: please translate
 		"statusokprotocolbad": "OK", //TODO: please translate
-		"statuslabelkeypool1": "This is a log of all the EXOS Addresses and Private Keys you generated during your current session. Reloading the page will create a new session.", //TODO: please translate
+		"statuslabelkeypool1": "This is a log of all the Rutanio Addresses and Private Keys you generated during your current session. Reloading the page will create a new session.", //TODO: please translate
 		"statuskeypoolrefresh": "Refresh", //TODO: please translate
 		"statusokkeypool": "OK", //TODO: please translate
 
 		// single wallet html
 		"newaddress": "Genera un Nuovo Indirizzo",
 		"singleprint": "Stampa",
-		"singlelabelbitcoinaddress": "Indirizzo EXOS:",
+		"singlelabelbitcoinaddress": "Indirizzo Rutanio:",
 		"singlelabelprivatekey": "Chiave privata (Wallet Import Format):",
-		"singletip1": "<b>Un portafogli EXOS</b> è composto semplicemente da una coppia di valori: l'indirizzo e la sua chiave privata. Un portafogli è stato appena generato sul tuo browser e mostrato sopra.",
-		"singletip2": "<b>Per mettere in sicurezza questo portafogli</b> devi stampare o quantomeno salvare l'indirizzo EXOS e la Chiave privata. È molto importante fare una copia di backup della chiave privata e conservarla in un posto sicuro. Questo sito non conosce la tua chiave privata. Se hai familiarità con PGP, puoi scaricare per intero questa pagina HTML e controllare la sua autentiticità. Puoi confrontare il codice SHA256 della pagina scaricata con il codice firmato dall'autore che trovi nella cronologia delle versioni (in fondo alla pagina). Se abbandoni/aggiorni la pagina web oppure premi il tasto Genera, un nuovo indirizzo sostituirà quello vecchio che non potrà più essere recuperato. La chiave privata dovrebbe essere tenuta segreta, chiunque conosca la chiave privata può avere accesso e spendere i tuoi EXOS. Se stampi il tuo portafogli conservalo in una busta di plastica sigillata per tenerla al riparo dall'acqua. Tratta quanto stampato alla stregua di una banconota.",
-		"singletip3": "<b>Ricevi fondi</b> su questo portafogli mostrando l'indirizzo EXOS per il versamento.",
-		"singletip4": "<b>Controlla il saldo</b> visitando blockchain.info o blockexplorer.com cercando il tuo indirizzo EXOS.",
-		"singletip5": "<b>Spend your EXOS</b> by  importing your private key to the p2p client wallet. Keep in mind when you import your single key to a EXOS p2p client and spend funds your key will be bundled with other private keys in the p2p client wallet. When you perform a transaction your change will be sent to another EXOS address within the p2p client wallet. You must then backup the p2p client wallet and keep it safe as your remaining EXOS will be stored there. Satoshi advised that one should never delete a wallet. ", // TODO: Translate
+		"singletip1": "<b>Un portafogli Rutanio</b> è composto semplicemente da una coppia di valori: l'indirizzo e la sua chiave privata. Un portafogli è stato appena generato sul tuo browser e mostrato sopra.",
+		"singletip2": "<b>Per mettere in sicurezza questo portafogli</b> devi stampare o quantomeno salvare l'indirizzo Rutanio e la Chiave privata. È molto importante fare una copia di backup della chiave privata e conservarla in un posto sicuro. Questo sito non conosce la tua chiave privata. Se hai familiarità con PGP, puoi scaricare per intero questa pagina HTML e controllare la sua autentiticità. Puoi confrontare il codice SHA256 della pagina scaricata con il codice firmato dall'autore che trovi nella cronologia delle versioni (in fondo alla pagina). Se abbandoni/aggiorni la pagina web oppure premi il tasto Genera, un nuovo indirizzo sostituirà quello vecchio che non potrà più essere recuperato. La chiave privata dovrebbe essere tenuta segreta, chiunque conosca la chiave privata può avere accesso e spendere i tuoi Rutanio. Se stampi il tuo portafogli conservalo in una busta di plastica sigillata per tenerla al riparo dall'acqua. Tratta quanto stampato alla stregua di una banconota.",
+		"singletip3": "<b>Ricevi fondi</b> su questo portafogli mostrando l'indirizzo Rutanio per il versamento.",
+		"singletip4": "<b>Controlla il saldo</b> visitando blockchain.info o blockexplorer.com cercando il tuo indirizzo Rutanio.",
+		"singletip5": "<b>Spend your Rutanio</b> by  importing your private key to the p2p client wallet. Keep in mind when you import your single key to a Rutanio p2p client and spend funds your key will be bundled with other private keys in the p2p client wallet. When you perform a transaction your change will be sent to another Rutanio address within the p2p client wallet. You must then backup the p2p client wallet and keep it safe as your remaining Rutanio will be stored there. Satoshi advised that one should never delete a wallet. ", // TODO: Translate
 		"singleshare": "SHARE", //TODO: please translate
 		"singlesecret": "SECRET", //TODO: please translate
 
@@ -99,14 +99,14 @@
 		"bulkprint": "Stampa",
 		"bulklabelcsv": "Valori Separati da virgola:",
 		"bulklabelformat": "Indice,Indirizzo,Chiave Privata (WIF)",
-		"bulklabelq1": "Perché dovrei usare tanti portafogli per accettare EXOS sul mio sito web?",
-		"bulka1": "Il tradizionale approcio per accettare i EXOS è quello di installare il demone ufficiale EXOS (\"EXOSd\"). Molti pacchetti di hosting web non supportano l'installazione di tale demone. Inoltre tenere in esecuzione il demone richiede che la chiave privata del portafogli sia custodita sul server, se questo viene violato tramite hacking puoi perdere tutti i EXOS. Usando portafogli multipli puoi caricare sul server solo l'indirizzo per il versamento e non la chiave privata. Quindi non devi preoccuparti del tuo portafogli nel caso in cui il server venga violato con un attacco di hacking.",
-		"bulklabelq2": "Come utilizzo tutti questi portafogli per accettare EXOS sul mio sito web?",
-		"bulklabela2li1": "Usa la funzione \"Portafogli multipli\" per generare una grande quantità di indirizzi EXOS (10,000+). Copia e incolla la lista generata in formato CSV (campi separati da virgola) su un file, al sicuro nel tuo computer. Fai una copia di backup di questo file e mettilo un posto sicuro.",
-		"bulklabela2li2": "Importa gli indirizzi EXOS in una tabella del database sul tuo web server. (Non importare i portafogli/chiavi private sul web server, altrimenti corri il rischio che rubino i tuoi EXOS con l'hacking. Usa gli indirizzi EXOS così come verranno mostrati ai tuoi clienti.)",
-		"bulklabela2li3": "Fornisci una opzione nel carrello del tuo sito web per pagare in EXOS. Quando il cliente sceglie di pagare in EXOS, gli mostrerai un indirizzo dal tuo database come \"indirizzo di pagamento\" e conserverai questo stesso indirizzo insieme ai dati dell'ordine.",
-		"bulklabela2li4": "Ora hai bisogno di notificare l'arrivo del pagamento. Cerca su Google \"notifiche pagamento EXOS\" ed iscriviti ad almeno un servizio di notifica. Esistono diversi servizi che possono notificare in vari modi come Web Services, API, SMS, Email, etc. Una volta ricevuta la notifica, la quale può essere automatizzata con la programmazione, puoi processare l'ordine del cliente. Per verificare manualmente se l'ordine è davvero arrivato puoi usare un block explorer. Sostituisci INDIRIZZODACONTROLLARE con l'indirizzo EXOS da controllare. Possono volerci dai 10 fino a 60 minuti per fare in modo che una transazione venga confermata.<br>http://www.blockexplorer.com/address/INDIRIZZODACONTROLLARE<br><br>Le transazioni non confermate possono essere visionate su: http://blockchain.info/ <br>Dovresti vedere la transazione entro 30 secondi.",
-		"bulklabela2li5": "In questo modo i EXOS transiteranno nella blockchain in tutta sicurezza. Usa il portafogli creato nel Passo 1 per spendere i EXOS.",
+		"bulklabelq1": "Perché dovrei usare tanti portafogli per accettare Rutanio sul mio sito web?",
+		"bulka1": "Il tradizionale approcio per accettare i Rutanio è quello di installare il demone ufficiale Rutanio (\"Rutaniod\"). Molti pacchetti di hosting web non supportano l'installazione di tale demone. Inoltre tenere in esecuzione il demone richiede che la chiave privata del portafogli sia custodita sul server, se questo viene violato tramite hacking puoi perdere tutti i Rutanio. Usando portafogli multipli puoi caricare sul server solo l'indirizzo per il versamento e non la chiave privata. Quindi non devi preoccuparti del tuo portafogli nel caso in cui il server venga violato con un attacco di hacking.",
+		"bulklabelq2": "Come utilizzo tutti questi portafogli per accettare Rutanio sul mio sito web?",
+		"bulklabela2li1": "Usa la funzione \"Portafogli multipli\" per generare una grande quantità di indirizzi Rutanio (10,000+). Copia e incolla la lista generata in formato CSV (campi separati da virgola) su un file, al sicuro nel tuo computer. Fai una copia di backup di questo file e mettilo un posto sicuro.",
+		"bulklabela2li2": "Importa gli indirizzi Rutanio in una tabella del database sul tuo web server. (Non importare i portafogli/chiavi private sul web server, altrimenti corri il rischio che rubino i tuoi Rutanio con l'hacking. Usa gli indirizzi Rutanio così come verranno mostrati ai tuoi clienti.)",
+		"bulklabela2li3": "Fornisci una opzione nel carrello del tuo sito web per pagare in Rutanio. Quando il cliente sceglie di pagare in Rutanio, gli mostrerai un indirizzo dal tuo database come \"indirizzo di pagamento\" e conserverai questo stesso indirizzo insieme ai dati dell'ordine.",
+		"bulklabela2li4": "Ora hai bisogno di notificare l'arrivo del pagamento. Cerca su Google \"notifiche pagamento Rutanio\" ed iscriviti ad almeno un servizio di notifica. Esistono diversi servizi che possono notificare in vari modi come Web Services, API, SMS, Email, etc. Una volta ricevuta la notifica, la quale può essere automatizzata con la programmazione, puoi processare l'ordine del cliente. Per verificare manualmente se l'ordine è davvero arrivato puoi usare un block explorer. Sostituisci INDIRIZZODACONTROLLARE con l'indirizzo Rutanio da controllare. Possono volerci dai 10 fino a 60 minuti per fare in modo che una transazione venga confermata.<br>http://www.blockexplorer.com/address/INDIRIZZODACONTROLLARE<br><br>Le transazioni non confermate possono essere visionate su: http://blockchain.info/ <br>Dovresti vedere la transazione entro 30 secondi.",
+		"bulklabela2li5": "In questo modo i Rutanio transiteranno nella blockchain in tutta sicurezza. Usa il portafogli creato nel Passo 1 per spendere i Rutanio.",
 
 		// brain wallet html
 		"brainlabelenterpassphrase": "Inserisci la Passphrase: ",
@@ -115,7 +115,7 @@
 		"brainlabelconfirm": "Conferma Passphrase: ",
 		"brainview": "Visiona",
 		"brainalgorithm": "Algoritmo: SHA256(passphrase)",
-		"brainlabelbitcoinaddress": "Indirizzo EXOS:",
+		"brainlabelbitcoinaddress": "Indirizzo Rutanio:",
 		"brainlabelprivatekey": "Chiave privata (Wallet Import Format):",
 
 		// vanity wallet html
@@ -145,10 +145,10 @@
 		"detailkeyformats": "Key Formats: WIF, WIFC, HEX, B64, B6, MINI, BIP38",
 		"detailview": "Mostra Dettagli",
 		"detailprint": "Stampa",
-		"detaillabelnote1": "La tua Chiave privata EXOS è rappresentata da un numero segreto, unico al mondo, che dovresti conoscere soltanto tu. Può essere codificato in molti formati differenti. Di seguito verrà mostrato l'indirizzo EXOS e la chiave pubblica, con la corrispondente chiave privata, nei più diffusi formati di codifica (WIF, WIFC, HEX, B64).",
-		"detaillabelnote2": "Il client EXOS, dalla versione v0.6, memorizza le chiavi pubbliche in formato compresso. Il programma ora supporta l'importazione e l'esportazione delle chiavi private attraverso importprivkey/dumpprivkey. Il formato con cui viene esportata la chiave privata dipende se l'indirizzo generato è stato creato con il nuovo o vecchio portafogli.",
-		"detaillabelbitcoinaddress": "Indirizzo EXOS",
-		"detaillabelbitcoinaddresscomp": "Indirizzo EXOS compresso",
+		"detaillabelnote1": "La tua Chiave privata Rutanio è rappresentata da un numero segreto, unico al mondo, che dovresti conoscere soltanto tu. Può essere codificato in molti formati differenti. Di seguito verrà mostrato l'indirizzo Rutanio e la chiave pubblica, con la corrispondente chiave privata, nei più diffusi formati di codifica (WIF, WIFC, HEX, B64).",
+		"detaillabelnote2": "Il client Rutanio, dalla versione v0.6, memorizza le chiavi pubbliche in formato compresso. Il programma ora supporta l'importazione e l'esportazione delle chiavi private attraverso importprivkey/dumpprivkey. Il formato con cui viene esportata la chiave privata dipende se l'indirizzo generato è stato creato con il nuovo o vecchio portafogli.",
+		"detaillabelbitcoinaddress": "Indirizzo Rutanio",
+		"detaillabelbitcoinaddresscomp": "Indirizzo Rutanio compresso",
 		"detaillabelpublickey": "Chiave pubblica (130 caratteri [0-9A-F]):",
 		"detaillabelpublickeycomp": "Chiave pubblica (compressa, 66 caratteri [0-9A-F]):",
 		"detaillabelprivwif": "Chiave privata WIF<br>51 caratteri base58, inizia per a",
@@ -161,6 +161,6 @@
 		"detailbip38decryptbutton": "Decripta BIP38",
 		"detailbip38encryptbutton": "Encrypt BIP38", //TODO: please translate
 		"detaillabelq1": "How do I make a wallet using dice? What is B6?", //TODO: please translate
-		"detaila1": "An important part of creating a EXOS wallet is ensuring the random numbers used to create the wallet are truly random. Physical randomness is better than computer generated pseudo-randomness. The easiest way to generate physical randomness is with dice. To create a EXOS private key you only need one six sided die which you roll 99 times. Stopping each time to record the value of the die. When recording the values follow these rules: 1=1, 2=2, 3=3, 4=4, 5=5, 6=0. By doing this you are recording the big random number, your private key, in B6 or base 6 format. You can then enter the 99 character base 6 private key into the text field above and click View Details. You will then see the EXOS address associated with your private key. You should also make note of your private key in WIF format since it is more widely used." //TODO: please translate
+		"detaila1": "An important part of creating a Rutanio wallet is ensuring the random numbers used to create the wallet are truly random. Physical randomness is better than computer generated pseudo-randomness. The easiest way to generate physical randomness is with dice. To create a Rutanio private key you only need one six sided die which you roll 99 times. Stopping each time to record the value of the die. When recording the values follow these rules: 1=1, 2=2, 3=3, 4=4, 5=5, 6=0. By doing this you are recording the big random number, your private key, in B6 or base 6 format. You can then enter the 99 character base 6 private key into the text field above and click View Details. You will then see the Rutanio address associated with your private key. You should also make note of your private key in WIF format since it is more widely used." //TODO: please translate
 	};
 })(ninja.translator);

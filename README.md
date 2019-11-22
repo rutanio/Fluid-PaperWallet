@@ -1,7 +1,7 @@
-# Paper Wallet EXOS
-JavaScript Client-Side EXOS Wallet Generator
+# Paper Wallet Rutanio
+JavaScript Client-Side Rutanio Wallet Generator
 
-Now EXOS addresses and their corresponding private key can be conveniently 
+Now Rutanio addresses and their corresponding private key can be conveniently 
 generated in a web browser.
 
 Based on bitaddress.org[https://github.com/pointbiz/bitaddress.org]
@@ -23,10 +23,10 @@ END USER NOTES:
 
 Notice of Copyrights and Licenses:
 ---------------------------------------
-The EXOS Paper Wallet project, software and embedded resources are
+The Rutanio Paper Wallet project, software and embedded resources are
 copyright OpenExO.
 
-The EXOS Paper Wallet name and logo are not part of the open source
+The Rutanio Paper Wallet name and logo are not part of the open source
 license.
 
 Portions of the all-in-one HTML document contain JavaScript codes that
